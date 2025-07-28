@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: rgb(186, 31, 83); font-size: medium; font-style: italic;"></title>
+    <link rel="stylesheet" href="boxing.css">
+    <script src="java.js" defer></script>
+
+
+
+
+<link rel="stylesheet" href="boxing.css">
+</head>
+<body class=>
+<header>
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+<a href="" class="header"<span>SPARTA</span><span>CLUB</span>
+<nav class="navbar">
+<a href="boxingclub.html">HOME</a>
+<a href="booking.html">BOOK NOW</a>    
+<a href="TEAM.html">CLASSES</a>    
+<a href="contact.html">CONTACT</a>        
+</nav>    
+
+<div class="icons">
+  <i class="fas fa-user" id="login-btn"></i>
+</div>
+</header>
+
+ <div class="pricing-container">
+        <h1>Prices and membership options</h1>
+        
+        <table class="pricing-table">
+            <tr>
+                <td>Basic (1 martial art – 2 sessions per week) – monthly fee</td>
+                <td>£25.00</td>
+            </tr>
+            <tr>
+                <td>Intermediate (1 martial art – 3 sessions per week) – monthly fee</td>
+                <td>£35.00</td>
+            </tr>
+            <tr>
+                <td>Advanced (any 2 martial arts – 5 sessions per week) – monthly fee</td>
+                <td>£45.00</td>
+            </tr>
+            <tr>
+                <td>Elite (unlimited classes)</td>
+                <td>£60.00</td>
+            </tr>
+            <tr>
+                <td>Private martial arts tuition – per hour</td>
+                <td>£15.00</td>
+            </tr>
+            <tr>
+                <td>Junior membership – can attend all-kids martial arts sessions</td>
+                <td>£25.00</td>
+            </tr>
+        </table>
+        
+        <hr class="divider">
+        
+        <h1>Specialist courses and fitness training</h1>
+        
+        <table class="pricing-table">
+            <tr>
+                <td>Six-week beginners' self-defence course (2 × 1-hour session per week)</td>
+                <td>£180.00</td>
+            </tr>
+            <tr>
+                <td>Use of fitness room – per visit</td>
+                <td>£6.00</td>
+            </tr>
+            <tr>
+                <td>Personal fitness training – per hour</td>
+                <td>£35.00</td>
+            </tr>
+        </table>
+    </div>
+  
+  <!-- BOOKING FORM -->
+  <section class="booking" id="booking-form">
+    <div class="container">
+      <h2>Secure Your Spot</h2>
+      <p class="section-subtitle">Fill in your details and we’ll confirm your booking ASAP.</p>
+
+      <form action="#" method="post" class="form">
+        <div class="grid">
+          <div class="form-group">
+            <label for="fullName">Full Name*</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+          <label for="phone">Phone*</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="package">Package*</label>
+            <select id="package" name="package" required>
+              <option value="" disabled selected>Select a package</option>
+              <option value="dropin">Drop‑In Class</option>
+              <option value="monthly">Monthly Unlimited</option>
+              <option value="private">Private Coaching</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Preferred Date*</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="time">Preferred Time*</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+
+          <div class="form-group">
+            <label for="people">Number of People</label>
+            <input type="number" id="people" name="people" min="1" value="1">
+          </div>
+
+          <div class="form-group full">
+            <label for="message">Notes / Goals</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us your goals or any injuries we should know about..."></textarea>
+          </div>
+
+          <div class="form-group checkbox full">
+            <label>
+              <input type="checkbox" required>
+              I agree to the <a href="#" target="_blank">terms & conditions</a>.
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Confirm Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- TRUST / FAQ -->
+  <section class="trust">
+    <div class="container">
+      <h2>Why Book With Us?</h2>
+      <ul class="trust-list">
+        <li>✔ Certified coaches with ring experience</li>
+        <li>✔ Flexible scheduling for all levels</li>
+        <li>✔ Safe, clean, pro-grade equipment</li>
+      </ul>
+
+      <div class="faq">
+        <h3>FAQs</h3>
+
+        <details>
+          <summary>Can beginners book?</summary>
+          <p>Absolutely. We have beginner-friendly sessions and coaches who guide you step-by-step.</p>
+        </details>
+
+        <details>
+          <summary>Do I need my own gloves?</summary>
+          <p>No, we can provide gloves. But we do recommend bringing your own wraps.</p>
+        </details>
+
+        <details>
+          <summary>What if I need to reschedule?</summary>
+          <p>Just contact us at least 24 hours before your session and we’ll reschedule you.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="footer-container">
+    <!-- Location -->
+    <div class="footer-section">
+      <h3>Our Location</h3>
+      <p>Sparta Boxing Club<br>123 Fight Street<br>Dubai, UAE</p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Phone: <a href="tel:+971500000000">+971 50 476384890</a></p>
+      <p>Email: <a href="mailto:info@spartaboxing.com">info@spartaboxing.com</a></p>
+    </div>
+
+    <!-- Instagram Link -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <a href="https://www.instagram.com/aloegarten/?hl=en" target="_blank" aria-label="Instagram">
+        <img src="instagram.png" alt="Instagram" class="social-icon">
+      </a>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2025 Sparta Boxing Club. All Rights Reserved.</p>
+</footer>
